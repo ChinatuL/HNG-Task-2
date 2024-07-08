@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='flex flex-col-reverse items-center xl:items-start xl:flex-row gap-8'>
                 <div className='grid grid-cols-3 gap-2 xl:grid-cols-[auto_auto_1fr] xl:gap-8 xl:w-[65%] text-sm xl:text-base'>
                     <div className='xl:pr-10'>
-                        <h3 className='text-lg font-semibold pb-2'>
+                        <h3 className='md:text-lg font-semibold pb-2'>
                             Quick Links
                         </h3>
                         <ul className='grid gap-2 font-medium'>
@@ -31,7 +31,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='xl:pr-10'>
-                        <h3 className='text-lg font-semibold pb-2'>About</h3>
+                        <h3 className='md:text-lg font-semibold pb-2'>About</h3>
                         <ul className='grid gap-2 font-medium'>
                             {footerPaths.map((path) => {
                                 const { id, name } = path;
@@ -40,7 +40,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='xl:pr-8'>
-                        <h3 className='text-lg font-semibold pb-2'>
+                        <h3 className='md:text-lg font-semibold pb-2'>
                             Social media
                         </h3>
                         <div className='grid gap-4'>
@@ -69,7 +69,7 @@ const Footer = () => {
                                 placeholder='Your email'
                                 className='py-3 px-4 placeholder:text-black bg-white w-full rounded-lg'
                             />
-                            <button className='absolute top-2 right-5 text-xs xl:text-base bg-darkYellow py-2 xl:py-1 px-2 xl:px-4 text-white font-semibold rounded-md'>
+                            <button className='absolute top-2 right-3 text-xs xl:text-base bg-darkYellow py-2 xl:py-1 px-2 xl:px-4 text-white font-semibold rounded-md'>
                                 Subscribe
                             </button>
                         </div>
@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='w-full h-[1px] bg-borderGray px-4'></div>
-            <p className='xl:self-center footer-font font-bold'>
+            <p className='text-sm md:text-base self-center footer-font font-bold'>
                 Sneaks/All Right Reserved
             </p>
         </footer>

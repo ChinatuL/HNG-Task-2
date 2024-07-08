@@ -24,7 +24,7 @@ const FormInput = ({
                 id={name}
                 name={name}
                 className={`w-full bg-lightGray rounded-[4px] px-3 placeholder:text-black ${
-                    size ? size : " py-2 "
+                    size ? size : " py-3 "
                 }`}
             />
         </div>

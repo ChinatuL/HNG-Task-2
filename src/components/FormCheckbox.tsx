@@ -9,7 +9,7 @@ const FormCheckbox = ({ name, label }: FormCheckboxProps) => {
                 type='checkbox'
                 name={name}
                 id={name}
-                className='w-4 h-4 bg-transparent border border-black'
+                className='w-4 h-4 bg-transparent border border-black accent-black'
             />
             <label htmlFor={name}>{label}</label>
         </div>

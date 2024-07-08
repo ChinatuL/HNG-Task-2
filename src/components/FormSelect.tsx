@@ -12,7 +12,7 @@ const FormSelect = ({ name, placeholder, label }: FormSelectProps) => {
             <select
                 name={name}
                 id={name}
-                className='w-full bg-lightGray rounded-[4px] py-2 px-3'
+                className='w-full bg-lightGray rounded-[4px] py-3 px-3'
             >
                 <option value=''>{placeholder}</option>
             </select>
