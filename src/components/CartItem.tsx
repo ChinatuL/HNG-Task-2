@@ -9,7 +9,7 @@ type CartItemProps = {
 
 const CartItem = ({ img, name, price }: CartItemProps) => {
     return (
-        <div className='flex  gap-4 bg-lightGray py-4 pr-6 pl-2 rounded-[10px] max-h-24 lg:max-h-32'>
+        <div className='flex  gap-4 bg-lightGray py-4 pr-6 pl-4 rounded-[10px] max-h-24 lg:max-h-32'>
             <div className='w-32 h-28'>
                 <img src={img} alt='' />
             </div>

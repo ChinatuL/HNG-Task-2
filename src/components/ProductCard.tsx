@@ -23,14 +23,14 @@ const ProductCard = ({ product }: ProductCardProps) => {
             >
                 <img src={cartIcon} alt='add to cart' />
             </Link>
-            <div className='flex justify-center items-center h-40 w-60'>
+            <div className='flex justify-center items-center text-center h-40 w-52'>
                 <img
                     src={img}
                     alt={name}
-                    className='w-full h-full object-cover'
+                    className='w-full '
                 />
             </div>
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center w-full'>
                 <h2 className='uppercase font-medium'>{name}</h2>
                 <p className='font-semibold'>${price}</p>
             </div>

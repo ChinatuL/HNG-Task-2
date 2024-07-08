@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='w-full h-[1px] bg-borderGray px-4'></div>
-            <p className='text-sm md:text-base self-center footer-font font-bold'>
+            <p className='text-sm md:text-base self-center font-bold'>
                 Sneaks/All Right Reserved
             </p>
         </footer>
