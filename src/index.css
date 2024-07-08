@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: "Inter", sans-serif;
+    }
+}
+
+@layer utilities {
+    .logo-font {
+        font-family: "Racing Sans One", sans-serif;
+    }
+
+    .footer-font {
+      font-family: "Poppins", sans-serif;
+    }
+
+    .transition-ease {
+        @apply transition ease-in-out duration-300;
+    }
+    .nav-icon {
+        @apply cursor-pointer;
+    }
+}
+
+.active {
+    @apply text-darkYellow font-semibold;
+}
