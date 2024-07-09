@@ -7,7 +7,7 @@ const Layout = () => {
             <header className='fixed z-10 bg-lightYellow w-full py-8 2xl:py-16 px-8 xl:px-[6.25rem] max-w-[90rem]'>
                 <Navbar />
             </header>
-            <main className='relative mt-28 flex flex-1 items-center w-full pb-8 px-8 xl:px-[6.25rem]'>
+            <main className='relative mt-28 2xl:mt-44 flex flex-1 items-center w-full pb-8 px-8 xl:px-[6.25rem]'>
                 <Outlet />
             </main>
 

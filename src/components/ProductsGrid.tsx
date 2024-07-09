@@ -10,7 +10,7 @@ const ProductsGrid = () => {
                 return (
                     <div
                         key={id}
-                        className='flex flex-col items-center gap-4 bg-lightGray relative rounded-[10px] p-4 lg:max-w-80 max-h-64'
+                        className='flex flex-col items-center lg:gap-4 xl:gap-12 bg-lightGray relative rounded-[10px] p-4 max-h-64'
                     >
                         <ProductCard product={product} />
                     </div>
